@@ -1,8 +1,8 @@
-# nahuel-product-card
+# product-card
 
 este es un paquete de prueba de despligue npm
 
-### Nahuel Perugi
+### 
 ```
 import {ProductCard, ProductImage, ProductTitle, ProductBottons} from 'nahuel-product-card'
 ```
@@ -15,14 +15,12 @@ import {ProductCard, ProductImage, ProductTitle, ProductBottons} from 'nahuel-pr
                 }}>
                 {
                     ({reset,increaseBy,isMaxCountReached,count}) =>(
-                        <div  >
-                   
+                        < >
                         < ProductImage/>
                         < ProductTitle />
                         < ProductBottons />
                         {/* <button onClick={reset}>Reset</button> */}
-                        
-                       </div>
+                        </>
                        )
                 }    
  </ProductCard>
