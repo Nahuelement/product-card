@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage Probando componente al interiro de productCard pero sin imagen 1`] = `
+<div
+  className="productCard undefined "
+>
+  <img
+    alt="Coffee Mug"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`ProductImage Probando visicualizacion de imagen   1`] = `
+<img
+  alt="Coffee Mug"
+  className="productImg undefined"
+  src="https://i.blogs.es/6f44dd/google-2015-1/450_1000.jpg"
+/>
+`;

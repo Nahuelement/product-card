@@ -22,13 +22,9 @@ export interface ProductContextProps {
     increaseBy:(value: number) => void,
     product:Product,
     maxCount?:number,
-    isMaxCountReached:boolean
-    
-    
-    
-     
-
+    isMaxCountReached:boolean,
 }
+
 export interface ProductCardMainProps {
     ({ children, product,className}: PropsCard): JSX.Element
     Title: (Props: ProductTitlePros)=>JSX.Element
