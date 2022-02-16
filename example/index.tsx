@@ -16,8 +16,8 @@ const App = () => {
       <ProductCard
                 product = {product}
                 initialValue = {{
-                     count:0,
-                    maxCount:10
+                     count:4,
+                    maxCount:20
                 }}>
                 {
                     ({reset,increaseBy,isMaxCountReached,count}) =>(
